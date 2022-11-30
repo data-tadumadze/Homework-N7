@@ -1,0 +1,296 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(Fonts/Roboto-Regular.eot);
+  src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
+    url(Fonts/Roboto-Regular.woff) format("woff"),
+    url(Fonts/Roboto-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Port";
+  src: url(fonts/PortLligatSlab-Regular.eot);
+  src: url(fonts/PortLligatSlab-Regular.ttf) format("trutype"),
+    url(fonts/PortLligatSlab-Regular.woff) format("woff"),
+    url(fonts/PortLligatSlab-Regular.w) format("woff2");
+}
+
+body {
+  font-family: "Roboto";
+  padding: 20px 40px 0 40px;
+  
+}
+
+nav,
+ul,
+.nav-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 26px;
+  color: #A80000;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+.nav-main-div {
+width: 1200px;
+}
+
+.nav-div-1 {
+  width: 500px;
+}
+
+.nav-div-2 {
+  width: 180px;
+}
+
+.nav-div-1 > ul > li {
+  font-size: 22px;
+  font-weight: 800;
+  padding-top: 11px;
+}
+
+.nav-div-1 > ul > li:hover {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.nav-div-2 > ul > li {
+  width: 45px;
+  height: 45px;
+  background-color: #F1F1F1;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.nav-div-2 > ul > li:hover {
+  background-color:antiquewhite;
+  cursor: pointer;
+}
+
+.icon {
+  width: 25.51px;
+  height: 25.51px;
+  padding-top: 9.745px;
+}
+
+.h2-up-p {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+h2 {
+  font-family: port;
+  font-size: 80px;
+  color: #A80000;
+  padding: 20px 0;
+}
+
+.h2-descrp {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 80px;
+}
+
+.section-div-1 {
+  width: 870px;
+}
+
+input {
+  width: 31px;
+  height: 31px;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.divider {
+  width: 587px;
+  height: 1px;
+  background-color: #D9D9D9;
+  margin: 70px auto;
+}
+
+
+.buttons-div {
+  margin: auto;
+  width: 500px;
+}
+
+.cart-button, .book-button {
+  width: 240px;
+  height: 56px;
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+}
+
+.cart-button {
+  background: linear-gradient(-45deg, transparent 15%, #A80000 5%);
+}
+
+.cart-button:hover {
+  background: linear-gradient(-45deg, transparent 15%, #700404 5%);
+  cursor: pointer;
+}
+
+.book-button {
+  background: linear-gradient(135deg, transparent 15%, #545454 5%);
+}
+
+.book-button:hover {
+  background: linear-gradient(135deg, transparent 15%, #272727 5%);
+  cursor: pointer;
+
+}
+
+
+.steak-img {
+  width: 721px;
+  height: 721px;
+}
+
+.coupen-div {
+  width: 507px;
+  height: 153px;
+  margin: auto;
+  box-shadow: 4px 4px #00000026;
+  border-radius: 20px;
+}
+
+.coupen-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coupen-header > p, .coupen-header > span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.coupen-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #D9D9D9;
+}
+
+.salad-div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.salad-div > span {
+  position: relative;
+  top: 55px;
+  right: 87px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.salad-div > h3 {
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.coupen-maindiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.get-coupen-div {
+  display: flex;
+}
+
+.get-coupen-div > button {
+  height: 26px;
+  width: 110px;
+  background-color: #FFF500;
+  border-radius: 25px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  top: 50px;
+}
+
+.get-coupen-div > p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  top: 40px;
+}
+.get-coupen-div > p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  top: 70px;
+  right: 44px;
+}
+
+.lookbook-div {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  align-items: center;
+  position: relative;
+  left: 213px;
+}
+
+.lookbook-circle {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background-color: #545454;
+}
+
+.lookbook-div > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.scroll-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #2C2C2C;
+}
+
+.scroll-circle:hover {
+  background-color: #FF1515;
+  cursor: pointer;
+}
+
+.scroll-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  position: absolute;
+  bottom: 200px;
+  left: 1900px;
+}
+
+
+
+
+
+
